@@ -1,0 +1,24 @@
+Avec ce bot League of Legends, vous pouvez avoir toutes les informations disponibles pour chaque compte d'un joueur.
+
+ATTENTION : Il faut savoir que les programmes utilisent pour la plupart des APIs avec une clé valable 24h, pour que la totalité des commandes marchent, IL FAUT GENERER UNE CLE VALIDE 24H VIA CE LIEN : https://developer.riotgames.com/  (Il faut sign up)
+Il faut ensuite modifier "api_key" dans /vars.py avec la nouvelle clé générée.
+
+Ce bot peut afficher :  - Le rank en solo et en flex, ainsi que le win rate et le nombre de partie totale
+                        - Le rank de challenge
+                        - Le 1er du ladder en solo et/ou en flex
+                        - La rotation des champions gratuits de la semaine
+                        - Les maîtrises possédées
+                        - Le patch actuel de jeu
+                        - Toute information sur un champion (Statistiques, Description du champion dans le lore, Tags, Counter, Image)
+
+Le bot peut aussi être configuré en Italien, Coréen, Espagnol, Français, Anglais, Japonais.
+Ces traductions sont disponibles seulement pour les commandes liées à League of Legends.
+
+Pour avoir les commandes utilisateur, faites !commandes
+Pour les commandes ADMIN (il faut le savoir), faites !admincommands
+
+L'historique est fonctionnel, il gère les commandes des utilisateurs, ainsi que la progression de la conversation du !Help (disponible, mais non assimilé dans le main volontairement).
+Les données sont sécurisées via le asyncio.lock.
+
+La sauvegarde est fonctionnelle, elle load et save les données dans /data.json
+
